@@ -1,0 +1,48 @@
+:root{
+    color: white;
+    background-color: black;
+}
+img{
+    width: 70px;
+    background-color: white;
+    /* border-radius: 20%; */
+}
+
+#back{
+    width: 50px;
+    color: #008f11;
+    background-color: black;
+}
+
+#contact{
+    line-height: 0.7em;
+    color: #008f11;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.hide{
+    color: white;
+    background-color: white;
+}
+
+.hide:hover{
+    color: #008f11;
+    background-color: black;
+    cursor: default;
+}
+a:hover{
+    color: #008f11;
+
+}
+
+p:hover{
+    cursor: default;
+    .hide, a{
+        background-color: black;
+        color: #008f11;
+        cursor: default;
+    }
+}
