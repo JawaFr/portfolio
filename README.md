@@ -1,1 +1,2 @@
-# portfolio
+This is my portfolio in HTML CSS and JavaScript for now.
+In progress...
