@@ -24,7 +24,6 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    /* border: solid white; */
     width: 45%;
     line-height: 1px;
 }
@@ -81,3 +80,4 @@ img{
         width: 100%;
     }
 }
+

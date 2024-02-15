@@ -7,42 +7,46 @@ img{
     background-color: white;
     /* border-radius: 20%; */
 }
-
+#compétence{
+    /* background-color:#303030; */
+}
 #back{
     width: 50px;
     color: #008f11;
     background-color: black;
 }
+#next{
+    transform: rotate(180deg);
+    width: 50px;
+    background-color: black;
+    float: right;
+}
 
+/* Contact side */
 #contact{
+    width: 30%;
     line-height: 0.7em;
     color: #008f11;
 }
 a{
-    color: white;
+    color: #008f11;
     text-decoration: none;
 
 }
 .hide{
-    color: white;
-    background-color: white;
-}
-
-.hide:hover{
+    cursor: default;
     color: #008f11;
+    background-color: #008f11;
+}
+.hide:hover, a:hover{
     background-color: black;
-    cursor: default;
-}
-a:hover{
-    color: #008f11;
-
+    transition: 
+    background-color 2s;
 }
 
-p:hover{
-    cursor: default;
-    .hide, a{
-        background-color: black;
-        color: #008f11;
-        cursor: default;
-    }
+/* Footer side */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
